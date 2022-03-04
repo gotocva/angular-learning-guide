@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-learning-guide';
+  
+  public alertType: string = 'success';
+
+  public setAlertType(alertType:string) {
+    this.alertType = alertType;
+  }
 }
